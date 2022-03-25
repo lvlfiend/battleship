@@ -1,8 +1,12 @@
 package ships.classes;
 
-public class Vessel {
+import ships.interfaces.Sailable;
+
+public class Vessel implements Sailable {
     public Point[] points;
 
+    @Override
+    public void sail() {
 
-
+    }
 }
